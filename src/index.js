@@ -5,9 +5,9 @@
 // H   H  A   A  P       P     IIIII  EEEEE  R   R
 
 // // //~~~~~~~~~~~~By:Jo~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const server = require('./src/app.js');
+const server = require('./app.js');
 require('dotenv').config();
-const { conn } = require('./src/db.js');
+const { conn } = require('./db.js');
 const PORT = process.env.PORT || 3001;
 
 
